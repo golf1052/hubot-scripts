@@ -11,6 +11,8 @@ To create a script:
 4. Code your script
 5. If you want your script to be loaded by hubot add `{SCRIPT NAME}` to [scripts.json](scripts.json).
 
+The Slack Web API is available through `robot.slack`. [Slack Web API documentation](https://slack.dev/node-slack-sdk/web-api).
+
 To respond to raw Slack events create a `listen` function. See [ping/index.js#robot.listen](ping/index.js) for an example.
 
 ```javascript
